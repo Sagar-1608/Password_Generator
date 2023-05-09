@@ -24,6 +24,7 @@ let password = ""; //empty
 let passwordLength = 10; // default length 10
 let checkCount = 0;
 
+// to initialize slidehandler
 handleSlider()
 
 
@@ -116,8 +117,6 @@ function genarateRandomSymbol() {
 
 
 
-
-
 // calculating the stringth of password 
 
 function calcStrength() {
@@ -143,8 +142,6 @@ function calcStrength() {
         setIndicator("#f00");
     }
 }
-
-
 
 
 
@@ -255,19 +252,8 @@ function shufflePassword(arr) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-//genrate password 
+// this is main code to generator 
+//generate password 
 
 genrateBtn.addEventListener('click', () => {
 
